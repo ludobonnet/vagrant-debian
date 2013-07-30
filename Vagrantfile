@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   end
   
   config.vm.box = "modele-debian7-64"
-  config.vm.box_url = "/Users/ludo/Documents/vagrant/debian-7-server-64-fr.box"
+  config.vm.box_url = "https://dl.dropboxusercontent.com/u/107568/debian-7-server-64-fr.box"
 
  # config.vm.hostname = "debian-dev"
   config.vm.network :private_network, ip: "192.168.50.5"
